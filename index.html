@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooking Master</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Cooking Master</title>
 </head>
 <body>
-    <p>after spending around 8 hours, i figured out nothing. its so confusing. i dont understand how to start, where to start. i saw api related videos over and over again, what is done in the video i can do that. i know what to do in the assignment but i dont understand how to code for the assignment. i seek for help in google, youtube. the more i see, the more i get confused. can you please tell me why this is happening? what should i do to recover this as soon as possible? <span style="color: red;">please make me know in assignment's feedback.</span></p>
-    <P>i know i wont get any marks but i dont want to submit late or make this due. also new module will release, thats why submitting. and i dont want to post in the group, thats why writing here.</P>
+    <main class="content-area">
+        <div class="search-bar col-md-6 mx-auto">
+            <h1 class="text-center">Cooking Master</h1>
+            <div class="search-box my-5">
+                <input id="search-text" type="text" class="form-control" placeholder="Search for meal">
+                <button onclick="getSearchText()" class="btn btn-success search-btn">Search</button>
+            </div>
+        </div>
 
-    <div id="search-field">
-        
-    </div>
-
+        <div id="instructions">
+            
+        </div>
+        <div id="meals-container" class="search-result col-md-3 mx-auto py-4">
+            
+        </div>
+    </main>
+    
     <script src="app.js"></script>
 </body>
 </html>
